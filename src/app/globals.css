@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn {
+    background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%);
+    box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  }
+  
+  .btn:hover {
+    background: linear-gradient(92.23deg, #406aff 21.43%, #3bace2 50.63%, #b936ee 100%, #ff56f6 117.04%);
+  }
+  
+  .gradient,
+  .active {
+    background: linear-gradient(92.23deg, #406aff 21.43%, #3bace2 50.63%, #b936ee 100%, #ff56f6 117.04%);
+  }
+  
+  
+  .active {
+    color: #fff;
+    padding: 1rem;
+    border-radius: 100%;
+  }
+  
+  @layer base {
+    body {
+      font-family: 'Cairo', sans-serif;
+      font-size: 1.125rem;
+      line-height: 1.5;
+      color: #ffffff;
+      background-image: url('../../public/images/site-bg.jpg');
+    }
+  
+    footer {
+     
+      color: #ffffff;
+      background-image: url('../../public/images/site-bg.jpg');
+    }
+    .logo{
+      background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%);
+
+    }
+    .login
+    {
+      background-image: url('../../public/images/site-bg.jpg');
+    }
+    .signup
+    {
+      background-image: url('../../public/images/site-bg.jpg');
+    }
+    .Contacts{
+     
+      color: #ffffff;
+      background-image: url('../../public/images/site-bg.jpg');
+    }
+    .loading{
+     
+      background-image: url('../../public/images/site-bg.jpg');
+    }
+  
+    .profile {
+      width: 100%;
+      justify-content: end;
+      background: linear-gradient(92.23deg, #13266b 21.43%, #063061 50.63%, #610c83 100%, #863782 117.04%);
+      border-radius: 0px;
+    }
+  
+    .profile img {
+      background-color: #406aff;
+      padding: 5px;
+      margin: 4px;
+    }
+  
+    .h2 {
+      font-family: 'Cairo', sans-serif;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      letter-spacing: 10%;
+      text-transform: uppercase;
+    }
+  
+    .h3 {
+      font-family: 'Cairo', sans-serif;
+      font-weight: 600;
+      font-size: 1.625rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.4375;
+
+
+
+    }
+  
+    .btn {
+      border-radius: 9999px;
+      font-family: 'Cairo', sans-serif;
+      color: #ffffff;
+      font-weight: 500;
+    }
+  
+    .btn-sm {
+      height: 3rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      font-size: 0.875rem;
+    }
+  
+    .btn-lg {
+      height: 3.5rem;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      font-size: 1rem;
+    }
+  
+    .btn-link {
+      font-size: 1rem;
+    }
+  
+    .text-gradient {
+      background: linear-gradient(to right, #42A6E3, #FF56F6);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 700;
+      font-family: 'Cairo', sans-serif;
+    }
+  
+    .section {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  
+    @media (min-width: 1024px) {
+      .section {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f3f4f6;
+  }
+  
+  body {
+    background-color: #f8fafc;
+  }
+  
+  @keyframes slideInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-slideInUp {
+    animation: slideInUp 0.9s ease-in-out;
+    -webkit-animation: slideInUp 0.9s ease-in-out;
+  }
+  
+  .color-title {
+    color: #A062EE;
+  }
+  
+  .bgService {
+    background-color: #181E57
+  }
+  
+  .bg-article {
+    background-color: #23144D
+  }
+  
+  .text-article {
+    color: #A367EF;
+  }
+  .footer-article
+  {
+    background-color: #331F6A
+    
+  }
+  .head-article
+  {
+    background-color: #331F6A
+    
+  }
+  
+  /* Article */
+  
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
